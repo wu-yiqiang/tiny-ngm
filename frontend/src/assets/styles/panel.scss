@@ -1,0 +1,14 @@
+.Panel {
+    // width: $--sidebar-width;
+    height: calc(100vh - $--sidebar-height);
+    
+    display: flex;
+    .left-box {
+        background-color: rgb(196, 30, 30);
+        padding: 2px $--icon-padding;
+    }
+    .right-box {
+        width: 120px;
+        background-color: rgb(196, 30, 30);
+    }
+}

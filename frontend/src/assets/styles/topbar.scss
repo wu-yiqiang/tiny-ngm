@@ -1,0 +1,16 @@
+.Topbar {
+    height: $--topbar-height;
+    background-color: #050505;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 $--icon-padding;
+    .left-box {
+        .menu {
+            cursor: pointer;
+        }
+    }
+    .right-box {
+
+    }
+}
