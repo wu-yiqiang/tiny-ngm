@@ -1,14 +1,44 @@
 .Panel {
     // width: $--sidebar-width;
     height: calc(100vh - $--sidebar-height);
-    
-    display: flex;
-    .left-box {
-        background-color: rgb(196, 30, 30);
-        padding: 2px $--icon-padding;
+    background-color: rgb(196, 30, 30);
+    overflow-y: auto;
+    .item {
+        display: flex;
+        font-size: 16px;
+        .item-icon {
+            display: flex;
+            align-items: center;
+            padding: $--item-padding $--icon-padding;
+        }
+        .item-title {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
     }
-    .right-box {
-        width: 120px;
-        background-color: rgb(196, 30, 30);
-    }
+    // display: flex;
+    // .left-box {
+    //     background-color: rgb(196, 30, 30);
+        
+    //     border: 1px solid green;
+    //     .item-icon {
+    //         display: flex;
+    //         align-items: center;
+    //         padding: $--item-padding $--icon-padding;
+    //         font-size: 20px;
+    //     }
+    // }
+    // .right-box {
+    //     width: 120px;
+    //     border: 1px solid green;
+        
+    //     background-color: rgb(196, 30, 30);
+    //     .item-title {
+    //         display: flex;
+    //         align-items: center;
+    //         padding: $--item-padding $--icon-padding;
+    //         font-size: 20px;
+    //     }
+    // }
 }

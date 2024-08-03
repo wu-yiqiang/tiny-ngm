@@ -11,6 +11,10 @@
         }
     }
     .right-box {
-
+        display: flex;
+        column-gap: 14px;
+        .item-box {
+            cursor: pointer;
+        }
     }
 }
