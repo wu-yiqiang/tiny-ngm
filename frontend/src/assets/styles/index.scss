@@ -1,12 +1,11 @@
 html {
-  background-color: rgba(27, 38, 54, 1);
+  // background-color: rgba(27, 38, 54, 1);
+  background-color: #e2e1e1;
 }
 
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  color: white;
   font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -27,12 +26,12 @@ body {
 
 #app {
   height: 100%;
-  width: 100vw;
+  width: 100%;
   box-sizing: border-box;
 }
 .main {
   display: flex;
-  height: 100%;
+  height: calc(100% - $--topbar-height);
 }
 .arco-icon {
   font-size: 20px;

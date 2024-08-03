@@ -1,10 +1,11 @@
 .Panel {
     height: 100%;
-    background-color: rgb(196, 30, 30);
+    background-color: #fff;
     overflow-y: auto;
     .item {
         display: flex;
         font-size: 16px;
+        cursor: pointer;
         .item-icon {
             display: flex;
             align-items: center;

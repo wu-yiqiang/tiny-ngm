@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Button } from '@arco-design/web-react'
 import '../../assets/styles/topbar.scss'
-import { IconPlus, IconSettings } from '@arco-design/web-react/icon'
+import { IconSun, IconSettings, IconMoon } from '@arco-design/web-react/icon'
 import { IconList } from '@arco-design/web-react/icon';
 function Topbar(props: any) {
   const {handleFullMenu} = props
@@ -14,7 +14,8 @@ function Topbar(props: any) {
       </div>
       <div className="right-box">
         <div className="item-box">
-          <IconSettings />
+          <IconSun />
+          {/* <IconMoon /> */}
         </div>
         <div className="item-box">
           <IconSettings />
