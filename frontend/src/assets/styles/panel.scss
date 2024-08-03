@@ -1,6 +1,5 @@
 .Panel {
-    // width: $--sidebar-width;
-    height: calc(100vh - $--sidebar-height);
+    height: 100%;
     background-color: rgb(196, 30, 30);
     overflow-y: auto;
     .item {
@@ -14,31 +13,7 @@
         .item-title {
             display: flex;
             align-items: center;
-            padding: 10px;
+            padding: $--item-padding $--item-padding $--item-padding 0;
         }
     }
-    // display: flex;
-    // .left-box {
-    //     background-color: rgb(196, 30, 30);
-        
-    //     border: 1px solid green;
-    //     .item-icon {
-    //         display: flex;
-    //         align-items: center;
-    //         padding: $--item-padding $--icon-padding;
-    //         font-size: 20px;
-    //     }
-    // }
-    // .right-box {
-    //     width: 120px;
-    //     border: 1px solid green;
-        
-    //     background-color: rgb(196, 30, 30);
-    //     .item-title {
-    //         display: flex;
-    //         align-items: center;
-    //         padding: $--item-padding $--icon-padding;
-    //         font-size: 20px;
-    //     }
-    // }
 }
