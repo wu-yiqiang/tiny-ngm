@@ -7,7 +7,7 @@ import LoadBalance from '../pages/load-balance'
 import Statics from '../pages/statics'
 import Certificate from '../pages/certificate'
 import Logs from '../pages/logs'
-import { IconPlus, IconDragDot, IconDashboard, IconDesktop } from '@arco-design/web-react/icon'
+import { IconDragDot, IconDashboard, IconDesktop } from '@arco-design/web-react/icon'
 export const allRouters: Array<any> = [
   {
     path: '/',
@@ -20,7 +20,7 @@ export const allRouters: Array<any> = [
   {
     path: '/base-params',
     key: 'base-params',
-    label: '基本参数',
+    label: '配置管理',
     icon: <IconDragDot />,
     parentkey: '',
     element: <BaseParams />
